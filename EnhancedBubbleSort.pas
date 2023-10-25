@@ -53,9 +53,10 @@ END;
 BEGIN (*Test*)
 
         FOR I := 1 TO 15 DO
-          List[I] := RANDOM(100);
-        BubbleSort(List, 15);
+           List[I] := RANDOM(100);
+           BubbleSort(List, 15);
+        
         FOR I := 1 TO 15 DO
-          Writeln(List[i])
+           Writeln(List[I])
 
 END. (*Test*)
